@@ -7,10 +7,14 @@ class Dog
   def name
     @this_dogs_name
   end
+  def bark
+    puts "woof!"
+  end
 end
  
 lassie = Dog.new
 lassie.name = "Lassie"
+lassie.bark 
  
 puts lassie.name
 
